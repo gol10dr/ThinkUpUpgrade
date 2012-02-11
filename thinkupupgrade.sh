@@ -5,7 +5,7 @@ read NEW_BUILD
 echo "What build of Thinkup is currently installed?"
 read OLD_BUILD
 echo "Backing up Thinkup build " $OLD_BUILD"..."
-sudo cp -R /var/www/thinkup /var/www/thinkup-b4-$OLD_BUILD
+sudo cp -R /var/www/thinkup /var/www/thinkup-$OLD_BUILD
 wait
 # Download new zip to server
 echo "Downloading Thinkup build" $NEW_BUILD"..."

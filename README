@@ -1,14 +1,17 @@
+------
 README
-.~.~.~.
+------
 
 This is a simple script I wrote to help me automate the upgrade of Thinkup.  Please make sure you run the database backup first prior to running the script. 
 
 Assumptions:
+============
 - Script has been made executable (sudo chmod a+x)
 - ThinkUp directory is in /var/www/thinkup/
 - You have already backed up your thinkup database (you have been warned!)
 
 Actions:
+========
 - Asks for the version number to upgrade to
 - Asks for the version number you are currently running
 - Backs up the current Thinkup directory

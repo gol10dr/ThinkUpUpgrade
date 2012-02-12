@@ -17,6 +17,11 @@ echo "Unpacking tarball..."
 sudo unzip -o /var/www/thinkup_$NEW_BUILD.zip
 wait
 echo "...Done"
+# Change permissions on data directory
+echo "Updating permissions on ThinkUp's data directory..."
+sudo chmod -R 777 /var/www/thinkup/data/
+wait 
+echo "...Done"
 # Remove zip download
 echo "Removing zip..."
 sudo rm /var/www/thinkup_$NEW_BUILD.zip

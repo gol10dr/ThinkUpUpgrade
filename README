@@ -12,6 +12,7 @@ Assumptions:
 
 Actions:
 ========
+- Asks if you have backed up your ThinkUp database (exits with wrong answer)
 - Asks for the version number to upgrade to
 - Asks for the version number you are currently running
 - Backs up the current Thinkup directory
